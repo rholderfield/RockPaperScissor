@@ -12,4 +12,8 @@ An application that plays Rock, Paper, Scissors verus Javascript with a UI.
 
 ## Acknowledgments
 
-Project assignment of [The Odin Project - Web Development 101 - PROJECT: ROCK PAPER SCISSORS(https://www.theodinproject.com/courses/web-development-101/lessons/rock-paper-scissors)
+Project assignment of [The Odin Project - Web Development 101 - PROJECT: ROCK PAPER SCISSORS](https://www.theodinproject.com/courses/web-development-101/lessons/rock-paper-scissors)
+
+## Demo
+
+[Rock, Paper, Scissors](https://rholderfield.github.io/RockPaperScissor/)
