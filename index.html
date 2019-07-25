@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Rock, Paper, Scissors</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link
+      rel="stylesheet"
+      href="https://code.getmdl.io/1.3.0/material.amber-orange.min.css"
+    />
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+  </head>
+  <body>
+    <div class="mdl-layout mdl-js-layout">
+      <header class="mdl-layout__header">
+        <div class="mdl-layout__header-row">
+          <span class="mdl-layout__title"><h5>Rock, Paper, Scissors</h5></span>
+        </div>
+      </header>
+      <main class="mdl-layout__content">
+        <div class="mdl-grid">
+          <div class="mdl-cell mdl-cell--1-col">
+            <table class="mdl-data-table mdl-js-data-table">
+              <thead>
+                <tr>
+                  <th class="mdl-data-table__cell--non-numeric">Player 1</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="mdl-data-table__cell--non-numeric"></td>
+                </tr>
+                <tr>
+                  <td class="mdl-data-table__cell--non-numeric"></td>
+                </tr>
+                <tr>
+                  <td class="mdl-data-table__cell--non-numeric"></td>
+                </tr>
+                <tr>
+                  <td class="mdl-data-table__cell--non-numeric"></td>
+                </tr>
+                <tr>
+                  <td class="mdl-data-table__cell--non-numeric"></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="mdl-cell mdl-cell--1-col">
+            <table class="mdl-data-table mdl-js-data-table">
+              <thead>
+                <tr>
+                  <th class="mdl-data-table__cell--non-numeric">Versus</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="mdl-data-table__cell--non-numeric">Round 1</td>
+                </tr>
+                <tr>
+                  <td class="mdl-data-table__cell--non-numeric">Round 2</td>
+                </tr>
+                <tr>
+                  <td class="mdl-data-table__cell--non-numeric">Round 3</td>
+                </tr>
+                <tr>
+                  <td class="mdl-data-table__cell--non-numeric">Round 4</td>
+                </tr>
+                <tr>
+                  <td class="mdl-data-table__cell--non-numeric">Round 5</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="mdl-cell mdl-cell--1-col">
+            <table class="mdl-data-table mdl-js-data-table">
+              <thead>
+                <tr>
+                  <th class="mdl-data-table__cell--non-numeric">Computer</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="mdl-data-table__cell--non-numeric"></td>
+                </tr>
+                <tr>
+                  <td class="mdl-data-table__cell--non-numeric"></td>
+                </tr>
+                <tr>
+                  <td class="mdl-data-table__cell--non-numeric"></td>
+                </tr>
+                <tr>
+                  <td class="mdl-data-table__cell--non-numeric"></td>
+                </tr>
+                <tr>
+                  <td class="mdl-data-table__cell--non-numeric"></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="mdl-cell mdl-cell--9-col"></div>
+        </div>
+        <div class="mdl-grid" style="text-align:center;">
+          <div class="mdl-cell mdl-cell--3-col">
+            <form id="options">
+              <label
+                class="mdl-radio mdl-js-radio mdl-js-ripple-effect"
+                for="option-1"
+              >
+                <input
+                  type="radio"
+                  id="option-1"
+                  class="mdl-radio__button"
+                  name="options"
+                  value="1"
+                />
+                <span class="mdl-radio__label">Rock</span>
+              </label>
+              <label
+                class="mdl-radio mdl-js-radio mdl-js-ripple-effect"
+                for="option-2"
+              >
+                <input
+                  type="radio"
+                  id="option-2"
+                  class="mdl-radio__button"
+                  name="options"
+                  value="2"
+                  checked
+                />
+                <span class="mdl-radio__label">Paper</span>
+              </label>
+              <label
+                class="mdl-radio mdl-js-radio mdl-js-ripple-effect"
+                for="option-3"
+              >
+                <input
+                  type="radio"
+                  id="option-3"
+                  class="mdl-radio__button"
+                  name="options"
+                  value="3"
+                />
+                <span class="mdl-radio__label">Scissor</span>
+              </label>
+            </form>
+            <br />
+            <br />
+            <button
+              class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored"
+              id="gameOn"
+            >
+              Go!
+            </button>
+            <button
+              class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored"
+              id="reset"
+            >
+              Reset
+            </button>
+          </div>
+          <footer>
+            <div id="game-announcer" class="mdl-js-snackbar mdl-snackbar">
+              <div class="mdl-snackbar__text"></div>
+              <button class="mdl-snackbar__action" type="button"></button>
+            </div>
+          </footer>
+          <div class="mdl-cell mdl-cell--9-col"></div>
+        </div>
+      </main>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
